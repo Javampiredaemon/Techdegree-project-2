@@ -1,0 +1,257 @@
+
+/*Universersal Styling Accross All Platforms*/
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	background-color: #F8F8F8;
+}
+
+
+/*============================Header Styles==============================*/
+
+.main-header {
+	text-align: center;
+}
+
+.main-header li {
+	font-weight: bold;
+}
+
+.main-header a {
+
+	display: block;
+
+}
+
+
+.container h3 {
+	text-align: center;
+	
+}
+
+
+/*============================container styles==============================*/
+
+
+.container figcaption {
+	font-weight: bold;
+	text-align: center;
+}
+
+.container h3 {
+	text-align: center;
+}
+
+.container {
+	background-color: #FFFFFF;
+	width: 95%;
+	margin: 0 auto;
+}
+
+/*============================Column styles==============================*/
+
+
+.col img {
+	height: 165px;
+	width: 290px;
+}
+
+
+.col  {
+	display: block;
+	
+}
+
+
+.col figcaption {
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+.col p {
+	padding-bottom: .5em;
+}
+
+
+/*============================Contact Styles==============================*/
+
+.contact {
+	text-align: center;
+
+}
+
+.contact p {
+	text-overflow: normal;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.numbers-email {
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.second-contact {
+	padding-bottom: 3.5em;
+}
+
+
+/*============================Clearfix Snippet==============================*/
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+
+
+/*============================Footer Styles==============================*/
+
+.main-footer {
+	border-top: .2px solid #000;
+	padding-top: .5em;
+}
+
+
+
+/*============================Media Queries==============================*/
+
+/*for Mobile Phones*/
+
+@media (min-width: 320px) {
+
+	.main-header li{
+		display: block;
+		background-color: #FFF;
+		margin-bottom: .3em;
+		text-align: center;
+		margin-right: 1em; 
+		padding: .7em;	
+	}
+
+	.main-header {
+		width: 99%;
+		margin-bottom: 3em;
+	}
+
+	.main-header a {
+		display: block;
+	}
+
+
+	.introduction img {
+		position: center;
+		height: 170px;
+		width: 250px;
+		margin-left: 5em;
+		margin-bottom: .5em;
+	}
+
+	.container h3{
+
+		padding-top: 2.5em;
+		padding-bottom: 2em;
+	}
+
+	
+	.introduction p {
+		text-align: center;
+		overflow-wrap: normal;
+		margin-bottom: 2.5em;
+		padding-left: 1em;
+		padding-right: 1em;
+
+	}
+
+
+	.student {
+		text-align: left;
+		padding-left: 1.5em;
+		padding-right: 10em; 
+	}
+
+	.to-top {
+		text-align: right;
+		padding-left: 1.5em;
+	}
+
+	.student,
+	.to-top {
+		display: inline-block;
+
+	}
+
+}
+
+/*For Tablets & low Resolution Desktops*/
+
+@media (min-width: 768px) {
+	
+	.main-header li{
+		display: inline-block;
+		background-color: #F8F8F8;
+		margin-bottom: .3em;
+		text-align: center;
+		margin-right: 1em; 
+		padding: .7em;
+	}
+
+	.main-header a {
+		display: block;
+	}
+
+
+	.container {
+		width: 100%;
+	}
+
+
+
+	/*For Desktops & Larger Screen Displays*/
+
+	@media (min-width: 1024px) {
+
+		.main-header li {
+			
+			display: inline-block;
+			background-color: #FFF;
+			padding: .5em 1.5em;
+
+		}
+		
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
