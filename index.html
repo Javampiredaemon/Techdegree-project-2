@@ -1,78 +1,114 @@
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Richard's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Richard's Portfolio</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/normalize.css">
+			<link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
 
-		<body>
-			<div>
-				<header class="main-header">				
-					<h1 class="name">Student Name</h1>
-					<nav class="main-nav">
-						<ul>
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">PORTFOLIO</a></li>
-							<Li><a href="#">CONTACT</a></Li>
-						</ul>
-					</nav>
+			<body>
+
+				<div>
+					<header class="main-header">				
+						<h1 class="name">Student Name</h1>
+						<nav class="main-nav">
+							<ul>
+								<li><a href="#">HOME</a></li>
+								<li><a href="#">PORTFOLIO</a></li>
+								<Li><a href="#">CONTACT</a></Li>
+							</ul>
+						</nav>
+					</div>
+
+
+					<div class="introduction clearfix">
+						<img src="responsive_layout_v2.0/images/responsive-layout-profile.png">
+						<p>Hi! I'm a front-end developer who loves<br>responsive design and css. I recently<br>finished a degree in front-end web<br>development at Treehouse and am<br>excited to put all my skills to use!</p>
+					</div>	
+				</header>
+
+				<main class="container clearfix">
+
+					<h3>PORTFOLIO</h3>
+
+					<div style="text-align: center;" class="col">
+
+						<div class=" project first">
+							<figure>	
+								<img src="responsive_layout_v2.0/images/portfolio-1.png" title="Marketing Page" >
+								<figcaption>Marketing Page</figcaption>
+								<p>This project shows the front page of a marketing website meant for a specific business i'm interested in.</p>
+							</figure>
+						</div>
+
+						<div class="second project">
+							<figure>
+								<img src="responsive_layout_v2.0/images/portfolio-2.png" title="Search Page">
+								<figcaption>Search Page</figcaption>
+								<p>This project searches through a specific database to find information that the user is trying to look up.</p>
+							</figure>
+						</div>
+
+						<div class="third project">
+							<figure>
+								<img src="responsive_layout_v2.0/images/portfolio-3.png" title="Travel App">
+								<figcaption>Travel App</figcaption>
+								<p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+							</figure>
+						</div>
+
+						<div class="fourth project">
+							<figure>
+								<img src="responsive_layout_v2.0/images/portfolio-4.png" title="Map of Favorite Spots">
+								<figcaption>Map of Favorite Spots</figcaption>
+								<p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+							</figure>
+						</div>
+
+						<div class="fifth project">
+							<figure>	
+								<img src="responsive_layout_v2.0/images/portfolio-5.png" title="Photo Gallery" title="Photo Gallery">
+								<figcaption>Photo Gallery</figcaption>
+								<p>This project shows pictures from a recent trip to the viewer and allows<br>them to easily navigate through photos.</p>
+							</figure>
+						</div>
+
+						<div class="sixth project">
+							<figure>
+								<img src="responsive_layout_v2.0/images/portfolio-6.png" title="Calculator" alt="Calculator">
+								<figcaption>Calculator</figcaption>
+								<p style="text-align: center;" >Someone can enter in the numbers they want, and press the big blue button and get result.</p>
+							</figure>
+						</div>
+
+					</div>
+				</main>
+
+				<div class="contact">
+					<h4>CONTACT</h4>
+					<p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
 				</div>
-				<div class="introduction">
-					<img src="responsive_layout_v2.0/images/responsive-layout-profile.png">
-					<p>Hi! I'm a front-end developer who loves<br>responsive design and css. I recently<br>finished a degree in front-end web<br>development at Treehouse and am<br>excited to put all my skills to use!</p>
-				</div>	
-			</header>
 
-			<main class="container clearfix">
-				<h3>PORTFOLIO</h3>
-				<figure class=" first col">
-					<img src="responsive_layout_v2.0/images/portfolio-1.png" title="Marketing Page" >
-					<figcaption>Marketing Page</figcaption>
-					<p>This project shows the front page of a<br>marketing website meant for a specific<br>business i'm interested in.</p>
-				</figure>
-				<figure class=" second col">
-					<img src="responsive_layout_v2.0/images/portfolio-2.png" title="Search Page">
-					<figcaption>Search Page</figcaption>
-					<p>This project searches through a specific<br>database to find information that the<br>user is trying to look up.</p>
-				</figure>
-				<figure class=" third col">
-					<img src="responsive_layout_v2.0/images/portfolio-3.png" title="Travel App">
-					<figcaption>Travel App</figcaption>
-					<p>This project compares travel times<br>based on different transportation<br>methods and tells you the best one.</p>
-				</figure>
-				<figure class=" fourth col">
-					<img src="responsive_layout_v2.0/images/portfolio-4.png" title="Map of Favorite Spots">
-					<figcaption>Map of Favorite Spots</figcaption>
-					<p>This project uses mapping apis to plot<br>points for my favorite spots in the city<br>for a do-it-yourself walking tour.</p>
-				</figure>
-				<figure class="fifth col">	
-					<img src="responsive_layout_v2.0/images/portfolio-5.png" title="Photo Gallery" title="Photo Gallery">
-					<figcaption>Photo Gallery</figcaption>
-					<p>This project shows pictures from a<br>recent trip to the viewer and allows<br>them to easily navigate through photos.</p>
-				</figure>
-				<figure class="sixth col">
-					<img src="responsive_layout_v2.0/images/portfolio-6.png" title="Calculator" alt="Calculator">
-					<figcaption>Calculator</figcaption>
-					<p>Someone can enter in the numbers<br>they want, and press the big blue<br>button and get result.</p>
-				</figure>
-			</main>
+				<div class="numbers-email first-contact">
+					Phone    <strong>+1 (111) 555-1234</strong>
+				</div>
 
-			<div class="contact">
-				<h4>CONTACT</h4>
-				<p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-			</div>
-			<div class="numbers-email first">
-				Phone <strong>+1 (111) 555-1234</strong>
-			</div>		
-			<div class="numbers-email second-contact">
-				Email <strong>email@yoursite.com</strong> 
-			</div>
-			<footer class="main-footer">
-				<p class="student"><a href="#">Student Name</a></p>
-				<p class="to-top"><a href="#">BACK TO TOP</a></p>
-			</footer>
-		</body>
-		</html>
+				<div class="numbers-email second-contact">
+					Email     <strong>email@yoursite.com</strong> 
+				</div>
+
+					<footer class="main-footer">
+							<p class="student"><a href="#">Student Name</a></p>
+							<p class="to-top"><a href="#">BACK TO TOP</a></p>
+							
+							<ul class="extended-nav">
+								<li><a href="#">Home</a></li>
+								<li><a href="">Portfolio</a></li>
+								<li><a href="">Contact</a> </li>
+							</ul>
+					</footer>
+
+				</body>
+			</html>

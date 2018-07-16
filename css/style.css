@@ -7,7 +7,10 @@
 
 a {
 	text-decoration: none;
+	color: #4d4d4d;
+
 }
+
 
 ul {
 	list-style-type: none;
@@ -15,13 +18,34 @@ ul {
 
 body {
 	background-color: #F8F8F8;
+	line-height: 1.4;
 }
 
 
 /*============================Header Styles==============================*/
 
+.main-header li{
+	display: block;
+	background-color: #FFF;
+	margin-bottom: .3em;
+	text-align: center;
+	margin-right: 1em; 
+	padding: .7em;	
+}
+
+.main-header {
+	width: 99%;
+	margin-bottom: 3em;
+}
+
+.main-header a {
+	display: block;
+}
+
 .main-header {
 	text-align: center;
+	color: #303030;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 .main-header li {
@@ -37,9 +61,32 @@ body {
 
 .container h3 {
 	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
 	
 }
 
+.introduction img {
+	position: center;
+	height: 170px;
+	width: 250px;
+	margin-left: 4em;
+	margin-bottom: .5em;
+}
+
+
+
+.introduction p {
+	text-align: center;
+	overflow-wrap: normal;
+	margin-bottom: 2.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #808080;
+
+}
 
 /*============================container styles==============================*/
 
@@ -51,6 +98,8 @@ body {
 
 .container h3 {
 	text-align: center;
+	font-size: 17px;
+	color: #505050;
 }
 
 .container {
@@ -59,35 +108,58 @@ body {
 	margin: 0 auto;
 }
 
+.container h3{
+
+	padding-top: 2.5em;
+	padding-bottom: 2em;
+}
+
+
 /*============================Column styles==============================*/
 
 
-.col img {
+.project img {
 	height: 165px;
 	width: 290px;
 }
 
 
-.col  {
+.project  {
 	display: block;
 	
 }
 
 
-.col figcaption {
+.project figcaption {
 	padding-top: 1em;
 	padding-bottom: .5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #606060;
+	font-size: 17px;
+
 }
 
-.col p {
+.project p {
 	padding-bottom: .5em;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+
 }
 
 
 /*============================Contact Styles==============================*/
 
+
 .contact {
 	text-align: center;
+	font-size: 17px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.contact h4 {
+	color: #505050;
+	font-family: 'Fira Sans', sans-serif;
+	
 
 }
 
@@ -95,15 +167,22 @@ body {
 	text-overflow: normal;
 	padding-left: 1em;
 	padding-right: 1em;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 .numbers-email {
-	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: .5em;
 	text-align: center;
+	font-size: 17px;
+	font-family: 'Fira Sans', sans-serif;
+
 }
 
 .second-contact {
 	padding-bottom: 3.5em;
+	font-size: 17px;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -121,85 +200,49 @@ body {
 /*============================Footer Styles==============================*/
 
 .main-footer {
-	border-top: .2px solid #000;
-	padding-top: .5em;
+	border-top: .1px solid grey;
+	padding-top: 0 10%;
+	
+}
+
+
+.student {
+	background-color: #F8F8F8;
+	margin-bottom: .3em;
+	text-align: center;
+	margin-right: 1em; 
+	padding: .7em;; 
+}
+
+.to-top {
+	background-color: #F8F8F8;
+	margin-bottom: .3em;
+	text-align: center;
+	margin-right: 1em; 
+	padding: .7em;
+	float: right;
+}
+
+.student,
+.to-top {
+	display: inline-block;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+}
+
+
+.extended-nav {
+	display: none;
 }
 
 
 
 /*============================Media Queries==============================*/
 
-/*for Mobile Phones*/
-
-@media (min-width: 320px) {
-
-	.main-header li{
-		display: block;
-		background-color: #FFF;
-		margin-bottom: .3em;
-		text-align: center;
-		margin-right: 1em; 
-		padding: .7em;	
-	}
-
-	.main-header {
-		width: 99%;
-		margin-bottom: 3em;
-	}
-
-	.main-header a {
-		display: block;
-	}
-
-
-	.introduction img {
-		position: center;
-		height: 170px;
-		width: 250px;
-		margin-left: 5em;
-		margin-bottom: .5em;
-	}
-
-	.container h3{
-
-		padding-top: 2.5em;
-		padding-bottom: 2em;
-	}
-
-	
-	.introduction p {
-		text-align: center;
-		overflow-wrap: normal;
-		margin-bottom: 2.5em;
-		padding-left: 1em;
-		padding-right: 1em;
-
-	}
-
-
-	.student {
-		text-align: left;
-		padding-left: 1.5em;
-		padding-right: 10em; 
-	}
-
-	.to-top {
-		text-align: right;
-		padding-left: 1.5em;
-	}
-
-	.student,
-	.to-top {
-		display: inline-block;
-
-	}
-
-}
 
 /*For Tablets & low Resolution Desktops*/
-
 @media (min-width: 768px) {
-	
+
 	.main-header li{
 		display: inline-block;
 		background-color: #F8F8F8;
@@ -213,31 +256,80 @@ body {
 		display: block;
 	}
 
-
 	.container {
 		width: 100%;
-	}
-
-
-
-	/*For Desktops & Larger Screen Displays*/
-
-	@media (min-width: 1024px) {
-
-		.main-header li {
-			
-			display: inline-block;
-			background-color: #FFF;
-			padding: .5em 1.5em;
-
-		}
-		
 
 	}
 
+	.introduction {
+		width: 97%;
+		vertical-align: top;
+	}
+
+	.introduction img {
+		float: right;
+		width: 40%;
+		padding-right: 5em;
+		padding: .8em;
+		height: 100%;
+	}
+
+	.introduction p {
+		padding-left: 1em;
+		width: 60%;
+		font-size: 1.3em;
+		text-align: left;
+		padding-top: 2em;
+	}
 
 
+	.col {
+		padding: 1em;
+	}
 
+	.project {
+		width: 50%;	
+		float: left;
+		padding: 1em;
+		margin: auto;
+	}
+
+	.col img {
+		height: 190px;
+		width: 360px;
+	}
+
+	.to-top {
+		display: none;
+	}
+
+	.student,
+	.extended-nav {
+	display: inline-block;
+	}
+	.extended-nav {
+	float: right;
+	}
+
+	.extended-nav li {
+	display: inline-block;
+	background-color: #F8F8F8;
+	margin-bottom: .3em;
+	text-align: center;
+	margin-right: 1em; 
+	padding: .7em;
+	font-weight: bold;
+	}
+
+
+	.container h3 {
+	padding-top: 1.5em;
+	}
+
+	strong {
+	padding-left: .7em;
+	}
+}
 
 
 
