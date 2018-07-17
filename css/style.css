@@ -244,12 +244,6 @@ body {
 
 /*For Tablets & low Resolution Desktops*/
 @media (min-width: 768px) {
-/*
-	a:hover {
-	color: #0000FF;
-	}
-*/
-
 	.main-header li{
 		display: inline-block;
 		background-color: #F8F8F8;
