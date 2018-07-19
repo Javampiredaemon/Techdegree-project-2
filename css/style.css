@@ -81,7 +81,7 @@ body {
 	margin-bottom: 2.5em;
 	padding-left: 1em;
 	padding-right: 1em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	font-weight: lighter;
 	color: #808080;
@@ -133,7 +133,7 @@ body {
 .project figcaption {
 	padding-top: 1em;
 	padding-bottom: .5em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #606060;
 	font-size: 17px;
 
@@ -141,7 +141,7 @@ body {
 
 .project p {
 	padding-bottom: .5em;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 
 }
