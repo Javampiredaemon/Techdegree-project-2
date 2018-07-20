@@ -12,7 +12,7 @@ a {
 }
 
 ul {
-	list-style-type: none;
+	padding: 0;
 }
 
 body {
@@ -119,8 +119,9 @@ body {
 
 
 .project img {
-	height: 165px;
-	width: 290px;
+	/*height: 165px;
+	width: 290px;*/
+	width: 100%;
 }
 
 
@@ -247,10 +248,9 @@ body {
 	.main-header li{
 		display: inline-block;
 		background-color: #F8F8F8;
-		margin-bottom: .3em;
-		text-align: center;
-		margin-right: 1em; 
+		text-align: center; 
 		padding: .7em;
+		margin: auto;
 	}
 
 	.main-header a {
@@ -317,9 +317,8 @@ body {
 	.extended-nav li {
 	display: inline-block;
 	background-color: #F8F8F8;
-	margin-bottom: .3em;
 	text-align: center;
-	margin-right: 1em; 
+	margin: auto; 
 	padding: .7em;
 	font-weight: bold;
 	}
@@ -338,9 +337,9 @@ body {
 @media (min-width: 1024px) {
 
 	.introduction p {
-		margin-left: 10px;
+		margin-left: -13px;
 		text-align: left;
-		padding: 5em;
+		padding: 3em;
 	}
 
 	.name,
@@ -352,7 +351,7 @@ body {
 		width: 50%;
 		float: left;
 		text-align: left;
-		padding-left: 110px;
+		padding-left: 50px;
 	}
 	
 	.main-nav {
@@ -366,7 +365,6 @@ body {
 	}
 
 	.project {
-		flex: 1 290px;
 		max-width: 370px;
 		width: 33.33%;	
 		float: left;
@@ -385,18 +383,3 @@ body {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
